@@ -21,6 +21,7 @@ dotnet add package Microsoft.EntityFrameworkCore.Tools -v 3.1.12
 dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design -v 3.1.5
 
 dotnet add package Pomelo.EntityFrameworkCore.MySql -v 3.2.4
+
 Comando para realizar la conexion EntityFramework a northwind:
 
 dotnet ef dbcontext scaffold "server=localhost;uid=root;pwd=mysql;database=northwind" Pomelo.EntityFrameworkCore.MySql --output-dir Models --force
